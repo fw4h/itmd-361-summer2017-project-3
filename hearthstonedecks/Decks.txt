@@ -1,0 +1,272 @@
+### Flames of the Phoenix
+# Class: Mage
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Babbling Book
+# 2x (1) Mana Wyrm
+# 1x (2) Bloodmage Thalnos
+# 2x (2) Frostbolt
+# 1x (2) Primordial Glyph
+# 1x (2) Pyros
+# 2x (2) Sorcerer's Apprentice
+# 1x (3) Acolyte of Pain
+# 2x (3) Arcane Intellect
+# 2x (3) Tar Creeper
+# 2x (4) Fireball
+# 2x (4) Steam Surger
+# 2x (4) Tol'vir Stoneshaper
+# 2x (4) Water Elemental
+# 2x (5) Servant of Kalimos
+# 1x (7) Archmage Antonidas
+# 2x (7) Blazecaller
+# 1x (7) Firelands Portal
+# 
+AAECAf0EBu0FuAj7DKO2AsrBApjEAgy7AosDlQOrBOYElgWBsgLCwQKZwgLCwwLKwwLIxwIA
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+
+
+### Storm, Earth, and Fire
+# Class: Shaman
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Fire Fly
+# 1x (2) Devolve
+# 2x (2) Flametongue Totem
+# 2x (2) Jade Claws
+# 2x (2) Maelstrom Portal
+# 2x (3) Hex
+# 2x (3) Hot Spring Guardian
+# 1x (3) Lightning Storm
+# 1x (3) Mana Tide Totem
+# 2x (3) Tar Creeper
+# 2x (4) Jade Lightning
+# 1x (4) Jinyu Waterspeaker
+# 1x (4) Tol'vir Stoneshaper
+# 2x (5) Servant of Kalimos
+# 2x (6) Fire Elemental
+# 2x (6) Thing from Below
+# 2x (7) Blazecaller
+# 1x (8) Kalimos, Primal Lord
+# 
+AAECAaoIBoEE9QTdugL2vQKZwgLzwgIMvQH+BfAH+6oCoLYCh7wC0bwC68ICwsMCysMCh8QCyMcCAA==
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+
+
+### The Dig
+# Class: Rogue
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (0) Backstab
+# 2x (0) Preparation
+# 2x (0) Shadowstep
+# 2x (1) Fire Fly
+# 2x (1) Glacial Shard
+# 1x (1) Patches the Pirate
+# 2x (1) Southsea Deckhand
+# 2x (1) Stonetusk Boar
+# 2x (1) Swashburglar
+# 1x (1) The Caverns Below
+# 1x (2) Doomsayer
+# 1x (2) Gadgetzan Ferryman
+# 2x (2) Novice Engineer
+# 2x (2) Youthful Brewmaster
+# 2x (3) Igneous Elemental
+# 2x (3) Mimic Pod
+# 2x (6) Vanish
+# 
+AAECAYO6AgSKAZG8Avi9AobCAg20AcQBnALtAp8DiAXUBYYJkrYCl8EC/MEC68ICxscCAA==
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+
+
+### Guarding the Shard
+# Class: Warrior
+# Format: Standard
+# Year of the Mammoth
+#
+# 1x (1) Fire Plume's Heart
+# 1x (1) Whirlwind
+# 2x (2) Armorsmith
+# 1x (2) Battle Rage
+# 2x (2) Execute
+# 2x (2) Fiery War Axe
+# 2x (2) Slam
+# 1x (2) Sleep with the Fishes
+# 2x (3) Acolyte of Pain
+# 2x (3) Ravaging Ghoul
+# 2x (3) Stonehill Defender
+# 2x (3) Tar Creeper
+# 2x (4) Bloodhoof Brave
+# 2x (5) Alley Armorsmith
+# 2x (5) Brawl
+# 1x (5) Direhorn Hatchling
+# 1x (7) The Curator
+# 2x (8) Primordial Drake
+# 
+AAECAQcGkAP8BLmyAsbDAtPDAqLHAgxLkQPUBJEGsgj7DIKtAtKuAv68ApvCAsrDAsnHAgA=
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+
+
+### Dinomancer
+# Class: Hunter
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Alleycat
+# 1x (1) Fiery Bat
+# 2x (1) Jeweled Macaw
+# 2x (2) Crackling Razormaw
+# 1x (2) Dinomancy
+# 2x (2) Kindly Grandmother
+# 2x (2) Scavenging Hyena
+# 2x (3) Animal Companion
+# 1x (3) Deadly Shot
+# 2x (3) Eaglehorn Bow
+# 2x (3) Kill Command
+# 2x (3) Rat Pack
+# 2x (3) Unleash the Hounds
+# 2x (4) Houndmaster
+# 2x (4) Infested Wolf
+# 1x (5) Tundra Rhino
+# 2x (6) Savannah Highmane
+# 
+AAECAR8EuwXFCLitApPDAg2oArUD6wfbCe0JgQr+DM6uArm0Auq7Auy7AonDAo7DAgA=
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+
+
+### mrghllghllghg
+# Class: Paladin
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Murloc Tidecaller
+# 2x (1) Vilefin Inquisitor
+# 2x (2) Equality
+# 2x (2) Hydrologist
+# 2x (2) Rockpool Hunter
+# 2x (3) Aldor Peacekeeper
+# 2x (3) Murloc Warleader
+# 2x (3) Stonehill Defender
+# 2x (4) Consecration
+# 1x (4) Gentle Megasaur
+# 2x (4) Truesilver Champion
+# 1x (5) Stampeding Kodo
+# 2x (6) Spikeridged Steed
+# 1x (6) Sunkeeper Tarim
+# 1x (7) The Curator
+# 1x (8) Lay on Hands
+# 1x (8) Primordial Drake
+# 1x (8) Ragnaros, Lightlord
+# 1x (8) Tirion Fordring
+# 
+AAECAZ8FCNIE+gbbCuauArmyArnBArHCAsnHAgvbA9wD9AXPBqcIjwnTqgKzwQKbwgKdwgKIxwIA
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+
+
+### Drag00n
+# Class: Priest
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Northshire Cleric
+# 1x (1) Potion of Madness
+# 2x (1) Power Word: Shield
+# 2x (2) Netherspite Historian
+# 2x (2) Radiant Elemental
+# 1x (2) Shadow Visions
+# 2x (2) Shadow Word: Pain
+# 1x (3) Curious Glimmerroot
+# 2x (3) Kabal Talonpriest
+# 2x (3) Shadow Word: Death
+# 2x (4) Twilight Drake
+# 2x (5) Drakonid Operative
+# 1x (5) Elise the Trailblazer
+# 1x (5) Holy Nova
+# 1x (5) Lyra the Sunshard
+# 2x (6) Book Wyrm
+# 1x (6) Dragonfire Potion
+# 2x (8) Primordial Drake
+# 1x (9) Ysera
+# 
+AAECAa0GCMkGogm1uwLqvwLRwQLZwQLPxwK+yAIL5QSNCNMK1wryDKqyAoK1Arq7AvC7AtjBAsnHAgA=
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+
+
+### SMOrc
+# Class: Druid
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (0) Innervate
+# 2x (1) Bloodsail Corsair
+# 2x (1) Enchanted Raven
+# 2x (1) Fire Fly
+# 1x (1) Hungry Crab
+# 2x (1) Mark of the Lotus
+# 1x (1) Patches the Pirate
+# 1x (2) Dire Wolf Alpha
+# 1x (2) Golakka Crawler
+# 2x (2) Mark of Y'Shaarj
+# 2x (2) Power of the Wild
+# 2x (2) Ravasaur Runt
+# 2x (3) Savage Roar
+# 1x (3) Tar Creeper
+# 2x (3) Vicious Fledgling
+# 1x (4) Genzo, the Shark
+# 1x (4) Swipe
+# 1x (5) Bittertide Hydra
+# 2x (5) Living Mana
+# 
+AAECAZICCEC7A9kHkbwCn70Cr8IC5MICysMCC/4B9wPmBeUHwasCtrMCzbsChsECscECn8IC68ICAA==
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+
+
+### Control Mage
+# Class: Mage
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Babbling Book
+# 2x (1) Mana Wyrm
+# 2x (2) Arcanologist
+# 1x (2) Bloodmage Thalnos
+# 2x (2) Frostbolt
+# 2x (2) Medivh's Valet
+# 1x (2) Primordial Glyph
+# 1x (2) Sorcerer's Apprentice
+# 2x (3) Arcane Intellect
+# 1x (3) Gluttonous Ooze
+# 1x (3) Ice Barrier
+# 2x (3) Ice Block
+# 2x (3) Kabal Courier
+# 1x (3) Volcanic Potion
+# 2x (4) Fireball
+# 2x (7) Firelands Portal
+# 1x (7) Flamestrike
+# 1x (8) Medivh, the Guardian
+# 1x (9) Alexstrasza
+# 1x (10) Pyroblast
+# 
+AAECAf0ECsUE5gTtBO0F7Ae/CKG3Aum6ApjEAtPFAgrAAbsClQOrBJYFgbICo7YC17YCsLwCwcECAA==
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+

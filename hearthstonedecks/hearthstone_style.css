@@ -1,0 +1,453 @@
+body{
+  background-image: url(../images/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.deck-album{
+	width: 900px;
+	margin: 0 auto;
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+}
+
+.deck-album, .deck-overlay ul{
+  list-style-type: none;
+}
+.deck-album > li{
+	float: left;
+	margin: 5px;
+	position: relative;
+  padding:60px;
+}
+
+.deck-album > li > a,
+.deck-album > li > a img{
+	display: block;
+}
+
+
+.deck-album > li > a{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	padding: 10px;
+	-webkit-box-shadow: 1px 1px 2px #fff, 1px 1px 2px #fff inset;
+	-moz-box-shadow: 1px 1px 2px #fff, 1px 1px 2px #fff inset;
+	box-shadow: 1px 1px 2px #fff, 1px 1px 2px #fff inset;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+.deck-album > li > a span{
+  overflow: hidden;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top: 10px;
+	left: 10px;
+	text-align: center;
+	color: #f2f2f2;
+	text-shadow: 0px 5px 5px #333333;
+	font-size: 24px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+	background: rgb(241,210,194);
+	background: -moz-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b3c6ff 100%);
+	background: -webkit-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b3c6ff 100%);
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b3c6ff 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b3c6ff 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b3c6ff 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b3c6ff 100%);
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	-ms-transition: opacity 0.3s linear;
+	transition: opacity 0.3s linear;
+}
+
+.deck-album li > .Druid{
+  background: #663e1e;
+  -webkit-box-shadow: 1px 1px 2px #8a5428, 1px 1px 2px #8a5428 inset;
+	-moz-box-shadow: 1px 1px 2px #8a5428, 1px 1px 2px #8a5428 inset;
+	box-shadow: 1px 1px 2px #8a5428, 1px 1px 2px #8a5428 inset;
+}
+
+.deck-album li > .Druid span{
+  background: #b26c34;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #b26c34 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#b26c34));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b26c34 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b26c34 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b26c34 100%);
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b26c34 100%);
+}
+
+.deck-album li > .Hunter{
+  background: #23601e;
+  -webkit-box-shadow: 1px 1px 2px #33882b, 1px 1px 2px #33882b inset;
+	-moz-box-shadow: 1px 1px 2px #33882b, 1px 1px 2px #33882b inset;
+	box-shadow: 1px 1px 2px #33882b, 1px 1px 2px #33882b inset;
+}
+
+.deck-album li > .Hunter span{
+  background: #41ae37;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #41ae37 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#41ae37));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#41ae37 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#41ae37 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#41ae37 100%);
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#41ae37 100%);
+}
+
+.deck-album li > .Mage{
+  background: #5a6897;
+  -webkit-box-shadow: 1px 1px 2px #707da9, 1px 1px 2px #707da9 inset;
+	-moz-box-shadow: 1px 1px 2px #707da9, 1px 1px 2px #707da9 inset;
+	box-shadow: 1px 1px 2px #707da9, 1px 1px 2px #707da9 inset;
+}
+
+.deck-album li > .Mage span{
+  background: #8f9abc;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #8f9abc 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#8f9abc));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#8f9abc 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#8f9abc 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#8f9abc 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#8f9abc 100%);
+}
+
+.deck-album li > .Paladin{
+  background: #d0a24b;
+  -webkit-box-shadow: 1px 1px 2px #dab671, 1px 1px 2px #dab671 inset;
+	-moz-box-shadow: 1px 1px 2px #dab671, 1px 1px 2px #dab671 inset;
+	box-shadow: 1px 1px 2px #dab671, 1px 1px 2px #dab671 inset;
+}
+
+.deck-album li > .Paladin span{
+  background: #e5cb9a;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #e5cb9a 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#e5cb9a));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#e5cb9a 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#e5cb9a 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#e5cb9a 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#e5cb9a 100%);
+}
+
+.deck-album li > .Priest{
+  background: #a9b0b7;
+  -webkit-box-shadow: 1px 1px 2px #babfc5, 1px 1px 2px #babfc5 inset;
+	-moz-box-shadow: 1px 1px 2px #babfc5, 1px 1px 2px #babfc5 inset;
+	box-shadow: 1px 1px 2px #babfc5, 1px 1px 2px #babfc5 inset;
+}
+
+.deck-album li > .Priest span{
+  background: #d5d9dc;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #d5d9dc 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#d5d9dc));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#d5d9dc 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#d5d9dc 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#d5d9dc 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#d5d9dc 100%);
+}
+
+.deck-album li > .Rogue{
+  background: #36373b;
+  -webkit-box-shadow: 1px 1px 2px #494b50, 1px 1px 2px #494b50 inset;
+	-moz-box-shadow: 1px 1px 2px #494b50, 1px 1px 2px #494b50 inset;
+	box-shadow: 1px 1px 2px #494b50, 1px 1px 2px #494b50 inset;
+}
+
+.deck-album li > .Rogue span{
+  background: #62646a;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #62646a 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#62646a));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#62646a 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#62646a 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#62646a 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#62646a 100%);
+}
+
+.deck-album li > .Shaman{
+  background: #2d325a;
+  -webkit-box-shadow: 1px 1px 2px #3c4377, 1px 1px 2px #3c4377 inset;
+	-moz-box-shadow: 1px 1px 2px #3c4377, 1px 1px 2px #3c4377 inset;
+	box-shadow: 1px 1px 2px #3c4377, 1px 1px 2px #3c4377 inset;
+}
+
+.deck-album li > .Shaman span{
+  background: #4d5699;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #4d5699 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#4d5699));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#4d5699 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#4d5699 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#4d5699 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#4d5699 100%);
+}
+
+.deck-album li > .Warlock{
+  background: #4e3256;
+  -webkit-box-shadow: 1px 1px 2px #664270, 1px 1px 2px #664270 inset;
+	-moz-box-shadow: 1px 1px 2px #664270, 1px 1px 2px #664270 inset;
+	box-shadow: 1px 1px 2px #664270, 1px 1px 2px #664270 inset;
+}
+
+.deck-album li > .Warlock span{
+  background: #845591;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #845591 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#845591));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#845591 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#845591 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#845591 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#845591 100%);
+}
+
+.deck-album li > .Warrior{
+  background: #712518;
+  -webkit-box-shadow: 1px 1px 2px #93311f, 1px 1px 2px #93311f inset;
+	-moz-box-shadow: 1px 1px 2px #93311f, 1px 1px 2px #93311f inset;
+	box-shadow: 1px 1px 2px #93311f, 1px 1px 2px #93311f inset;
+}
+
+.deck-album li > .Warrior span{
+  background: #bd3f28;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #bd3f28 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#bd3f28));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#bd3f28 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#bd3f28 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#bd3f28 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#bd3f28 100%);
+}
+
+.deck-album > li > a:hover span{
+	opacity: 1;
+	filter: alpha(opacity=99);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+}
+.deck-overlay{
+	width: 0px;
+	height: 0px;
+	position: fixed;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	z-index: 99;
+	text-align: center;
+	background: rgb(241,210,194);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #b3c6ff 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#b3c6ff));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b3c6ff 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b3c6ff 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b3c6ff 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b3c6ff 100%);
+}
+
+.Druid ~ .deck-overlay{
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #b26c34 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#b26c34));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b26c34 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b26c34 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b26c34 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#b26c34 100%);
+}
+
+.Hunter ~ .deck-overlay{
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #41ae37 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#41ae37));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#41ae37 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#41ae37 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#41ae37 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#41ae37 100%);
+}
+
+.Mage ~ .deck-overlay{
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #8f9abc 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#8f9abc));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#8f9abc 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#8f9abc 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#8f9abc 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#8f9abc 100%);
+}
+
+.Paladin ~ .deck-overlay{
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #e5cb9a 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#e5cb9a));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#e5cb9a 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#e5cb9a 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#e5cb9a 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#e5cb9a 100%);
+}
+
+.Priest ~ .deck-overlay{
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #d5d9dc 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#d5d9dc));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#d5d9dc 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#d5d9dc 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#d5d9dc 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#d5d9dc 100%);
+}
+
+.Rogue ~ .deck-overlay{
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #62646a 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#62646a));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#62646a 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#62646a 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#62646a 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#62646a 100%);
+}
+
+.Shaman ~ .deck-overlay{
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #4d5699 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#4d5699));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#4d5699 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#4d5699 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#4d5699 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#4d5699 100%);
+}
+
+.Warlock ~ .deck-overlay{
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #845591 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#845591));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#845591 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#845591 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#845591 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#845591 100%);
+}
+
+.Warrior ~ .deck-overlay{
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, #bd3f28 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,#bd3f28));
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#bd3f28 100%);
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#bd3f28 100%);
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#bd3f28 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,0.56) 0%,#bd3f28 100%);
+}
+
+.deck-overlay > div{
+	position: relative;
+  float:left;
+	color: #f2f2f2;
+	width: 550px;
+	height: 80px;
+	margin: 40px auto 0px auto;
+	text-shadow: 0px 3px 3px #333333;
+}
+
+.deck-overlay div h3, .deck-overlay div p{
+	padding: 0px 20px;
+	width: 200px;
+	height: 60px;
+}
+
+.deck-overlay div ul{
+  float:right;
+  text-align: left;
+}
+
+/* .deck-overlay div ul li{
+  letter-spacing: -2px;
+  margin-top: -2px;
+} */
+
+.deck-overlay div h3{
+	font-size: 36px;
+	float: left;
+	text-align: right;
+	/* border-right: 1px solid rgba(27,54,81,0.4); */
+}
+.deck-overlay div h3 span, .deck-overlay div p{
+	font-size: 16px;
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-style: italic;
+}
+.deck-overlay div h3 span{
+	display: block;
+	line-height: 6px;
+}
+.deck-overlay div p{
+	font-size: 14px;
+	text-align: left;
+  margin-top: 50px;
+	float: left;
+  clear: right;
+	width: 260px;
+}
+.deck-overlay a.deck-close{
+	background: #f2f2f2;
+	z-index: 1001;
+	color: #fff;
+  background-color: grey;
+	position: absolute;
+	top: 43px;
+	left: 50%;
+	font-size: 15px;
+	line-height: 26px;
+	text-align: center;
+	width: 50px;
+	height: 23px;
+	overflow: hidden;
+	margin-left: -25px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+}
+.deck-overlay img{
+	max-height: 100%;
+	position: relative;
+	opacity: 0;
+	filter: alpha(opacity=0);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	-ms-transition: opacity 0.5s linear;
+	transition: opacity 0.5s linear;
+}
+.deck-prev, .deck-next{
+	text-indent: -9000px;
+	position: absolute;
+	top: -32px;
+	width: 24px;
+	height: 25px;
+	left: 50%;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
+}
+.deck-prev:hover, .deck-next:hover{
+	opacity: 1;
+	filter: alpha(opacity=99);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+}
+.deck-prev{
+	margin-left: -30px;
+	background: transparent url(../images/arrows.png) no-repeat top left;
+}
+.deck-next{
+	margin-left: 6px;
+	background: transparent url(../images/arrows.png) no-repeat top right;
+}
+.deck-overlay:target {
+	width: auto;
+	height: auto;
+	bottom: 0px;
+	right: 0px;
+	padding: 80px 100px 120px 100px;
+}
+
+.deck-overlay:target img,
+.deck-overlay:target a.deck-close{
+	opacity: 1;
+	filter: alpha(opacity=99);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+}

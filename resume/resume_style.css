@@ -1,0 +1,40 @@
+body{
+  /* background-image: url(../images/background.jpg); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #999999;
+}
+
+#footer{
+  color: #666;
+}
+
+ul li {
+  width: 80%;
+}
+
+.highlight {
+  color: #e6e6e6;
+}
+
+.header{
+  text-align:center;
+  border-bottom-style: solid;
+  border-bottom-color: #666;
+}
+
+.date {
+  float: right;
+  margin-top: 0px;
+}
+
+#skills{
+  width: 100%;
+}
+
+#downloadlink {
+  width: 100%;
+  margin-left: 45%;
+}
